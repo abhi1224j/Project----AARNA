@@ -1,0 +1,192 @@
+{
+  "hardware": {
+    "platform": "Windows 11",
+    "cpu": "AMD Ryzen 7 7445HS (6 cores / 12 threads)",
+    "ram_total_gb": 16.0,
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop (6GB VRAM)",
+    "cpu_threads_configured": 4,
+    "compute_type": "int8"
+  },
+  "models": {
+    "tiny": {
+      "model_size": "tiny",
+      "disk_size_mb": 74.58,
+      "load_time_seconds": 0.431,
+      "ram_resident_delta_mb": 0.0,
+      "total_process_ram_mb": 0.0,
+      "samples": {
+        "english": {
+          "audio_duration_seconds": 4.31,
+          "auto_mode": {
+            "transcript": "Hello Arna, what is the current weather forecast for today?",
+            "detected_language": "en",
+            "language_probability": 0.996,
+            "latency_seconds": 0.586,
+            "rtf": 0.136,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "en",
+            "transcript": "Hello Arna, what is the current weather forecast for today?",
+            "latency_seconds": 0.303,
+            "rtf": 0.07
+          }
+        },
+        "hindi": {
+          "audio_duration_seconds": 53.02,
+          "auto_mode": {
+            "transcript": "A unspecified currency A unspecified currency degree A unspecified currency A unspecified currency 34th. A unspecified currency A unspecified currency OEA unspecified currency registered ANA unspecified currency ANA unspecified currency ANA unspecified currency ANA unspecified currency ANA unspecified currency ANA unspecified currency OEA unspecified currency ANA unspecified currency D superscript to A unspecified currency A unspecified currency A unspecified currency A. unspecified currency A. unspecified currency A. unspecified currency superscript 1. A unspecified currency OEA unspecified currency superscript 2. A. unspecified currency A. NUROA unspecified currency per thousand A. unspecified currency A. unspecified currency A. unspecified currency A. unspecified currency A. unspecified currency 3. Free 4th A unspecified currency superscript 1. ANA YEN unspecified currency",
+            "detected_language": "en",
+            "language_probability": 0.962,
+            "latency_seconds": 4.4,
+            "rtf": 0.083,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "hi",
+            "transcript": "A-onspecified currency A-onspecified currency degree A-onspecified currency A-onspecified currency 3-4. A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified Periscrupt to A-onpecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency A-onspecified currency",
+            "latency_seconds": 7.704,
+            "rtf": 0.145
+          }
+        },
+        "hinglish": {
+          "audio_duration_seconds": 6.61,
+          "auto_mode": {
+            "transcript": "Arna, KAL much he college John a high, please remind me about my assignment at 8am.",
+            "detected_language": "en",
+            "language_probability": 0.995,
+            "latency_seconds": 0.533,
+            "rtf": 0.081,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "hi",
+            "transcript": "Arna, KAL much he college jhana high, please remind me about my assignment at 8am.",
+            "latency_seconds": 0.311,
+            "rtf": 0.047
+          }
+        }
+      }
+    },
+    "base": {
+      "model_size": "base",
+      "disk_size_mb": 141.03,
+      "load_time_seconds": 0.436,
+      "ram_resident_delta_mb": 0.0,
+      "total_process_ram_mb": 0.0,
+      "samples": {
+        "english": {
+          "audio_duration_seconds": 4.31,
+          "auto_mode": {
+            "transcript": "Hello Arna, What is the current weather forecast for today?",
+            "detected_language": "en",
+            "language_probability": 0.995,
+            "latency_seconds": 0.992,
+            "rtf": 0.23,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "en",
+            "transcript": "Hello Arna, What is the current weather forecast for today?",
+            "latency_seconds": 0.5,
+            "rtf": 0.116
+          }
+        },
+        "hindi": {
+          "audio_duration_seconds": 53.02,
+          "auto_mode": {
+            "transcript": "A unspecified currency, A unspecified currency, degree A unspecified currency, A unspecified currency, three-fourth, A unspecified currency, A unspecified currency, A unspecified currency, registered ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency A unspecified currency, A unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency, ANA unspecified currency",
+            "detected_language": "en",
+            "language_probability": 0.994,
+            "latency_seconds": 12.566,
+            "rtf": 0.237,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "hi",
+            "transcript": "A unspecified currency A unspecified currency degree A unspecified currency A unspecified currency 3-4th A unspecified currency A unspecified currency OEA unspecified currency registered ANA unspecified currency ANA unspecified currency ANA per 1000 A unspecified currency superscript to ANA unspecified currency OEA unspecified currency ANA unspecified currency superscript to A unspecified currency A unspecified currency A unspecified currency ANA unspecified currency ANA unspecified currency A unspecified currency superscript 1A unspecified currency OEA unspecified currency superscript to ANA A unspecified currency ANA per 1000 A unspecified currency A unspecified currency A unspecified currency 3-4th A unspecified currency superscript 1ANA unspecified currency",
+            "latency_seconds": 6.865,
+            "rtf": 0.129
+          }
+        },
+        "hinglish": {
+          "audio_duration_seconds": 6.61,
+          "auto_mode": {
+            "transcript": "Arna, KAL Much He College, John A High, please remind me about my assignment at 8M.",
+            "detected_language": "en",
+            "language_probability": 0.998,
+            "latency_seconds": 0.992,
+            "rtf": 0.15,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "hi",
+            "transcript": "Arna, KAL MUCH HE COLLEGE JOHNNA HIGH, PLEASE REMIND ME ABOUT MY ASSIGNMENT AT 8M",
+            "latency_seconds": 0.607,
+            "rtf": 0.092
+          }
+        }
+      }
+    },
+    "small": {
+      "model_size": "small",
+      "disk_size_mb": 463.69,
+      "load_time_seconds": 1.121,
+      "ram_resident_delta_mb": 0.0,
+      "total_process_ram_mb": 0.0,
+      "samples": {
+        "english": {
+          "audio_duration_seconds": 4.31,
+          "auto_mode": {
+            "transcript": "Hello Arna, what is the current weather forecast for today?",
+            "detected_language": "en",
+            "language_probability": 0.998,
+            "latency_seconds": 2.781,
+            "rtf": 0.646,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "en",
+            "transcript": "Hello Arna, what is the current weather forecast for today?",
+            "latency_seconds": 1.546,
+            "rtf": 0.359
+          }
+        },
+        "hindi": {
+          "audio_duration_seconds": 53.02,
+          "auto_mode": {
+            "transcript": "A Unspecified Currency A Unspecified Currency Degree A Unspecified Currency A Unspecified Currency 3 4th A Unspecified Currency A Unspecified Currency OE A Unspecified Currency Registered A Yen A Unspecified Currency A Yen A Unspecified Currency A Yen Per Thousand A Unspecified Currency SuperScript 2 A Yen A Unspecified Currency OE A Unspecified Currency A Yen A Unspecified Currency SuperScript 2 A Unspecified Currency A Unspecified Currency A Unspecified Currency A Yen A Unspecified Currency A Unspecified Currency SuperScript 1 A Unspecified Currency OE A Unspecified Currency SuperScript 2 A Yen A Unspecified Currency OE A Unspecified Currency SuperScript 1 A Yen A Unspecified Currency OE A Unspecified Currency SuperScript 2 A Yen A Unspecified Currency OE A Unspecified Currency SuperScript 2 A Yen A Unspecified Currency A Yen Euro A Unspecified Currency Per Thousand A Unspecified Currency A Unspecified Currency A Unspecified Currency 3 4th A Unspecified Currency SuperScript 1 A Yen A Yen Unspecified Currency",
+            "detected_language": "en",
+            "language_probability": 0.984,
+            "latency_seconds": 38.794,
+            "rtf": 0.732,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "hi",
+            "transcript": "a. unspecified currency a. unspecified currency degree a. unspecified currency a. unspecified currency 3 4th a. unspecified currency a. unspecified currency o. e. unspecified currency registered a. n. a. unspecified currency a. n. a. unspecified currency a. n. per thousand a. unspecified currency superscript to a. n. a. unspecified currency o. e. unspecified currency a. unspecified currency a. n. a. unspecified currency a. unspecified currency superscript to a. n. a. unspecified currency o. e. unspecified currency superscript to a. n. a. unspecified currency a. n. euro a. unspecified currency per thousand a. unspecified currency a. unspecified currency a. unspecified currency 3 4th a. unspecified currency superscript to a. n. a. n. unspecified currency",
+            "latency_seconds": 27.443,
+            "rtf": 0.518
+          }
+        },
+        "hinglish": {
+          "audio_duration_seconds": 6.61,
+          "auto_mode": {
+            "transcript": "Arna, K. A. L. Mudgehee College, John A. High, please remind me about my assignment at 8 m.",
+            "detected_language": "en",
+            "language_probability": 0.998,
+            "latency_seconds": 3.1,
+            "rtf": 0.469,
+            "realtime_capable": true
+          },
+          "explicit_mode": {
+            "requested_language": "hi",
+            "transcript": "अर्ना, क्याल मुज़्ी कुलज्जाना है, प्लीज रमाण्द में अबाद मैं अस्साँन्मंद अद आद आद आद आद आद.",
+            "latency_seconds": 3.077,
+            "rtf": 0.466
+          }
+        }
+      }
+    }
+  }
+}
